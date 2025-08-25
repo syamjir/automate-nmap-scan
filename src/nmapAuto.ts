@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import { runScan } from "./scanner.js";
-import { saveToFile } from "./fileService.js";
-import { sanitizeFilename } from "./utils.js";
+import { runScan } from "./scanner";
+import { saveToFile } from "./fileService";
+import { sanitizeFilename } from "./utils";
 
 const args = process.argv.slice(2);
 const target = args[0] || "scanme.nmap.org";
