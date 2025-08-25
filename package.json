@@ -1,16 +1,35 @@
 {
-  "name": "automate-nmap",
+  "name": "nmap-scan-cli",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A CLI tool to scan and save open ports using Nmap",
+  "main": "dist/nmapAuto.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:syamjir/automate-nmap-scan.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "bin": {
+    "nmap-scan": "dist/nmapAuto.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/nmapAuto.js"
+  },
+  "author": "syamjir",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^24.3.0",
     "typescript": "^5.9.2"
-  }
+  },
+  "keywords": [
+    "nmap",
+    "cli",
+    "scanner",
+    "network",
+    "security"
+  ],
+  "bugs": {
+    "url": "https://github.com/syamjir/automate-nmap-scan.git)/issues"
+  },
+  "homepage": "https://github.com/syamjir/automate-nmap-scan.git)#readme"
 }

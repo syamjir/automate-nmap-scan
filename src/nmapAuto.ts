@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+// Add CLI support
 import { exec } from "child_process";
 import { writeFile } from "fs";
 import { mkdir } from "fs/promises";
@@ -7,7 +9,7 @@ const command = `nmap -sV -T4 ${target}`;
 
 // 🔧 Sanitize filename
 const fileName = `${target.replace(/[^\w.-]/g, "_")}_${Date.now()}.txt`;
-const outputPath = `./Results/${fileName}`;
+const outputPath = `./nmap_results/${fileName}`;
 
 async function checkNmapInstalledAndRun() {
   exec("which nmap", async (error, stdout) => {
@@ -33,7 +35,7 @@ async function checkNmapInstalledAndRun() {
 
       try {
         // Create Results folder if it doesn't exist
-        await mkdir("./Results", { recursive: true });
+        await mkdir("./nmap_results", { recursive: true });
 
         // Save the scan output
         writeFile(outputPath, stdout, (writeErr) => {
