@@ -13,7 +13,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/nmapAuto.js"
+    "start": "node dist/nmapAuto.js",
+    "prepublishOnly": "npm run build"
   },
   "author": "syamjir",
   "license": "MIT",
@@ -26,10 +27,26 @@
     "cli",
     "scanner",
     "network",
-    "security"
+    "security",
+    "network scanner",
+    "port scanner",
+    "nmap automation",
+    "nmap cli tool",
+    "network tools",
+    "open ports",
+    "cybersecurity",
+    "infosec",
+    "hacking tools",
+    "reconnaissance",
+    "penetration testing",
+    "ethical hacking"
   ],
   "bugs": {
-    "url": "https://github.com/syamjir/automate-nmap-scan.git)/issues"
+    "url": "https://github.com/syamjir/automate-nmap-scan/issues"
   },
-  "homepage": "https://github.com/syamjir/automate-nmap-scan.git)#readme"
+  "homepage": "https://github.com/syamjir/automate-nmap-scan#readme",
+  "files": [
+    "dist/",
+    "README.md"
+  ]
 }
