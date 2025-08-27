@@ -1,7 +1,7 @@
 {
   "name": "nmap-scan-cli",
-  "version": "1.0.1",
-  "description": "A CLI tool to scan and save open ports using Nmap",
+  "version": "1.0.2",
+  "description": "CLI utility to perform detailed Nmap scans and save reports",
   "main": "dist/nmapAuto.js",
   "type": "module",
   "repository": {
