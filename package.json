@@ -9,7 +9,8 @@
     "url": "git+ssh://git@github.com:syamjir/automate-nmap-scan.git"
   },
   "bin": {
-    "nmap-scan": "dist/nmapAuto.js"
+    "nmap-sv-scan": "dist/nmapAuto.js",
+    "nmap-od-scan": "dist/nmapAuto.js"
   },
   "scripts": {
     "build": "tsc",
