@@ -45,8 +45,12 @@ choco install nmap
 
 ### 2. Install the CLI tool globally
 
+#### macOS / Linux
+
+On most Unix-like systems, you might need to use `sudo` to install globally due to permission restrictions:
+
 ```bash
-npm install -g nmap-scan-cli
+ npm install -g nmap-scan-cli
 ```
 
 ### 3. Run scans
@@ -58,6 +62,10 @@ nmap-sv-scan <target>
 ```
 
 #### 2. OS detection
+
+OS detection (`nmap -O`) requires administrative privileges.
+
+- **Linux/macOS:** Run the command with `sudo`
 
 ```bash
 nmap-od-scan <target>
