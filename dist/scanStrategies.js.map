@@ -1,0 +1,1 @@
+{"version":3,"file":"scanStrategies.js","sourceRoot":"","sources":["../src/scanStrategies.ts"],"names":[],"mappings":"AAIA,MAAM,OAAO,MAAM;IACjB,UAAU,CAAC,MAAc;QACvB,OAAO,gBAAgB,MAAM,EAAE,CAAC;IAClC,CAAC;CACF;AAED,MAAM,OAAO,MAAM;IACjB,UAAU,CAAC,MAAc;QACvB,OAAO,WAAW,MAAM,EAAE,CAAC;IAC7B,CAAC;CACF"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"scanStrategies.d.ts","sourceRoot":"","sources":["../src/scanStrategies.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,YAAY;IAC3B,UAAU,CAAC,MAAM,EAAE,MAAM,GAAG,MAAM,CAAC;CACpC;AAED,qBAAa,MAAO,YAAW,YAAY;IACzC,UAAU,CAAC,MAAM,EAAE,MAAM,GAAG,MAAM;CAGnC;AAED,qBAAa,MAAO,YAAW,YAAY;IACzC,UAAU,CAAC,MAAM,EAAE,MAAM,GAAG,MAAM;CAGnC"}
