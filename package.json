@@ -1,6 +1,6 @@
 {
   "name": "nmap-scan-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI utility to perform detailed Nmap scans and save reports",
   "main": "dist/nmapAuto.js",
   "type": "module",
